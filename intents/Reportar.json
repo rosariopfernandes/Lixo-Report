@@ -1,0 +1,186 @@
+{
+  "id": "b3b27b19-d796-41df-bc72-7ff19e3dfe7c",
+  "name": "Reportar",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e442c909-c7cd-44e1-97ab-7d2c5f400776",
+          "required": true,
+          "dataType": "@Bairro",
+          "name": "Bairro",
+          "value": "$Bairro",
+          "prompts": [
+            "Desculpa, não percebi o bairro?",
+            "Qual é o nome do bairro?",
+            "Pode repetir o nome do bairro?",
+            "Em que bairro está?"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "4403e577-d321-4594-9adf-0efd659c79de",
+      "data": [
+        {
+          "text": "Lixo em "
+        },
+        {
+          "text": "Malhangalene",
+          "alias": "Bairro",
+          "meta": "@Bairro",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8bff5001-7180-4b05-9190-e95792b3519f",
+      "data": [
+        {
+          "text": "Contentores cheios no "
+        },
+        {
+          "text": "Aeroporto",
+          "alias": "Bairro",
+          "meta": "@Bairro",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "39806974-5da1-418e-8b17-7d49fcd9a6b6",
+      "data": [
+        {
+          "text": "Tem "
+        },
+        {
+          "text": "um",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " contentor cheio na "
+        },
+        {
+          "text": "Coop",
+          "alias": "Bairro",
+          "meta": "@Bairro",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b28d1be6-7bb8-43a5-a950-29789966af11",
+      "data": [
+        {
+          "text": "Encontrei "
+        },
+        {
+          "text": "um",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " contentor cheio"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2e318795-e70a-4972-a8d4-b8d179969418",
+      "data": [
+        {
+          "text": "Contentor Cheio na "
+        },
+        {
+          "text": "Baixa",
+          "alias": "Bairro",
+          "meta": "@Bairro",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9d00776c-1076-48ef-8422-ab5e1e758216",
+      "data": [
+        {
+          "text": "Contentor no "
+        },
+        {
+          "text": "Chamanculo",
+          "alias": "Bairro",
+          "meta": "@Bairro",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a8905edc-59e0-432a-ae36-886ebdafd939",
+      "data": [
+        {
+          "text": "Tem "
+        },
+        {
+          "text": "um",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " contentor cheio no "
+        },
+        {
+          "text": "Alto-Maé",
+          "alias": "Bairro",
+          "meta": "@Bairro",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

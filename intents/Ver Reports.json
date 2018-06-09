@@ -1,0 +1,89 @@
+{
+  "id": "67538833-7243-4aa3-ab59-f75a63d7dfc9",
+  "name": "Ver Reports",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "a94e5d09-c942-47f4-a023-1096d9990f10",
+      "data": [
+        {
+          "text": "Ver Reports"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "727dd290-ee1d-41c7-aa59-e5567f67ba5d",
+      "data": [
+        {
+          "text": "Quais são os reports que já fiz?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2ef46c8d-93d3-4425-82ea-61a7fa2b4b6b",
+      "data": [
+        {
+          "text": "Reports"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "62d61545-f872-4e75-8fa6-e9d55c24a18a",
+      "data": [
+        {
+          "text": "Peço para ver os meus reports"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b41437ef-12bd-4504-88e4-e4e2edc80371",
+      "data": [
+        {
+          "text": "Mostra-me os meus reports"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

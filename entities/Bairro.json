@@ -1,0 +1,84 @@
+{
+  "id": "dbfaf603-b1d7-418a-a892-05c11423e0da",
+  "name": "Bairro",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Alto-Maé",
+      "synonyms": [
+        "Alto-Maé",
+        "Alto Mae",
+        "Alto-Maé A",
+        "Alto-Maé B"
+      ]
+    },
+    {
+      "value": "Baixa",
+      "synonyms": [
+        "Central C"
+      ]
+    },
+    {
+      "value": "Malhangalene",
+      "synonyms": [
+        "Malhangalene"
+      ]
+    },
+    {
+      "value": "Mafalala",
+      "synonyms": [
+        "Mafalala"
+      ]
+    },
+    {
+      "value": "Polana Cimento",
+      "synonyms": [
+        "Polana Cimento"
+      ]
+    },
+    {
+      "value": "Coop",
+      "synonyms": [
+        "Coop"
+      ]
+    },
+    {
+      "value": "Museu",
+      "synonyms": [
+        "Museu"
+      ]
+    },
+    {
+      "value": "Maxaquene",
+      "synonyms": [
+        "Maxaquene"
+      ]
+    },
+    {
+      "value": "Sommerschield",
+      "synonyms": [
+        "Sommerschield"
+      ]
+    },
+    {
+      "value": "Chamanculo",
+      "synonyms": [
+        "Chamanculo"
+      ]
+    },
+    {
+      "value": "Malanga",
+      "synonyms": [
+        "Malanga"
+      ]
+    },
+    {
+      "value": "Aeroporto",
+      "synonyms": [
+        "Aeroporto"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

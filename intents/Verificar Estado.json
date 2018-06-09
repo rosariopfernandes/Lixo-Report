@@ -1,0 +1,119 @@
+{
+  "id": "763d5f15-96c7-4e03-aac2-1d15b7dc8634",
+  "name": "Verificar Estado",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "17e2cf10-5477-4351-9d44-92d81a224df0",
+          "required": true,
+          "dataType": "@Bairro",
+          "name": "Bairro",
+          "value": "$Bairro",
+          "prompts": [
+            "À que bairro se refere?",
+            "Em que bairro?",
+            "Qual é o bairro?"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "fc5d60bc-8fe8-4563-b079-72d7851f8144",
+      "data": [
+        {
+          "text": "Algum avanço na "
+        },
+        {
+          "text": "Malanga",
+          "alias": "Bairro",
+          "meta": "@Bairro",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "797c9913-f1be-4c34-aef1-c1cc1cec56ee",
+      "data": [
+        {
+          "text": "Já resolveram o problema da "
+        },
+        {
+          "text": "baixa",
+          "alias": "Bairro",
+          "meta": "@Bairro",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d563ce42-8709-4ffa-9510-7974cd89b2de",
+      "data": [
+        {
+          "text": "Como ficou a situação do "
+        },
+        {
+          "text": "Chamanculo",
+          "alias": "Bairro",
+          "meta": "@Bairro",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "af685b1e-5fb3-49f5-a903-2de5bc1f63c4",
+      "data": [
+        {
+          "text": "Como está o meu report?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}
